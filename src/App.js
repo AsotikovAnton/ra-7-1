@@ -1,28 +1,9 @@
 import React, { useState } from 'react';
 import './App.css';
-// import DateTimePretty from './components/DateTimePretty';
 import VideoList from './components/VideoList';
-// function DateTime(props) {
-//   return (
-//     <p className="date">{props.date}</p>
-//   )
-// }
-
-// function Video(props) {
-//   const NewDateTime = DateTimePretty(DateTime);
-//   return (
-//     <div className="video">
-//       <iframe src={props.url} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-//       <NewDateTime date={props.date} />
-//     </div>
-//   )
-// }
-
-// function VideoList(props) {
-//   return props.list.map(item => <Video url={item.url} date={item.date} />);
-// }
 
 function App() {
+  // eslint-disable-next-line no-unused-vars
   const [list, setList] = useState([
     {
       url: 'https://www.youtube.com/embed/rN6nlNC9WQA?rel=0&amp;controls=0&amp;showinfo=0',
